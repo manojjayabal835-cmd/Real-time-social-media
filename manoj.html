@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SocialFeed</title>
+<link rel="stylesheet" href="manoj.css">
+</head>
+<body>
+
+<header>
+    <h1>SocialFeed</h1>
+    <button id="themeBtn">🌙 Dark Mode</button>
+</header>
+
+<div class="container">
+
+    <section class="profile">
+        <img src="https://via.placeholder.com/100" alt="">
+        <h2>manoj_mj</h2>
+        <p>@manoj17</p>
+        <button>Follow</button>
+    </section>
+
+    <section class="create-post">
+        <h2>Create Post</h2>
+
+        <textarea id="postText"
+            placeholder="What's happening?"></textarea>
+
+        <button onclick="createPost()">Post</button>
+    </section>
+
+    <section class="feed">
+        <h2>Live Feed</h2>
+
+        <div id="posts"></div>
+    </section>
+
+    <section class="trending">
+        <h2>Trending Hashtags</h2>
+
+        <ul>
+        </ul>
+    </section>
+
+</div>
+
+<script src="manoj.js"></script>
+</body>
+</html>
